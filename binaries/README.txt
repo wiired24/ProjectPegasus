@@ -16,15 +16,10 @@ Once you have downloaded your selected homebrew through the client, just extract
 --------------------------
 
 (This is Linux and Mac specific Doesn't Apply in Windows)
-When you download the homebrew you want you will get a file that will look like
-C:\Users\Public\homebrew\psx-box-master.zip. <- In order to extract this you will need to
-change the singe slash to a double slash so in the terminal just type.
-(Example) C:\\Users\\Public\\homebrew\\psx-box-master.zip unzip The files will now extract on UNIX Systems.
-
-(Another example, This time a .rar file *Requires unrar:  sudo apt-get install unrar)
-unrar e C:\Users\Public\homebrew\Win64e10+PKG.rar <- This won't extract
-unrar e C:\\Users\\Public\\homebrew\\Win64e10+PKG.rar <- This will extract
-
+In order to run you will need to download and install mono. 
+Just do sudo apt-get install mono. To run the client just cd into
+the binaries folder and run in the terminal  mono  Project_Pegasus.exe
+For extracting the files I recommend either unzip or unrar
 
 
 Instruction on sideloading APPX Packages can be found here
