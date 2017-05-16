@@ -14,6 +14,9 @@ namespace Project_Pegasus
             // Setting up loop to allow repeated multiple downloads
             while (1 == 1)
             {
+                
+             //Create C:/Users/Public/homebrew directory if it doesn't already exist
+             System.IO.Directory.CreateDirectory(@"C:\Users\Public\homebrew");
 
             // Setting up the design of the Console Interface
             Console.ForegroundColor = ConsoleColor.DarkCyan;
