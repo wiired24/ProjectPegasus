@@ -20,7 +20,7 @@ namespace Project_Pegasus
             Console.WriteLine("                                                                          ");
             Console.ResetColor();
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine(" # Note: Make sure to create dir C:Users//Public//homebrew");
+            Console.WriteLine(" # Note: If running on Windows make sure to create dir C:Users//Public//homebrew");
             Console.WriteLine(" If you have not already. Project Pegasus needs this directory to download");
             Console.WriteLine(" your files. More information can be located in the README file.");
             Console.ResetColor();
