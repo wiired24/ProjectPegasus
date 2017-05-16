@@ -81,7 +81,7 @@ namespace Project_Pegasus
                 case 3:
                     Console.WriteLine("Downloading PSX-BOX Please Wait....");
                     WebClient Client3 = new WebClient();
-                    Client3.DownloadFile("http://www.mediafire.com/file/j3d20a34cdy6se6/psx-box-master.zip ", @"C:\Users\Public\homebrew\psx-box-master.zip");
+                    Client3.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBckdaXzJ0U0dSMVE", @"C:\Users\Public\homebrew\psx-box-master.zip");
                     Console.WriteLine("Succesfully Downloaded...... :-)");
 
                     break;
