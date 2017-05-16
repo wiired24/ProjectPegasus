@@ -28,7 +28,7 @@ namespace Project_Pegasus
             Console.ResetColor();
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine(" # Note: If running Windows your homebrew will be downloaded to");
-            Console.WriteLine(" C:\Users\Public\homebrew. You should look there for your files");
+            Console.WriteLine(" C:\\Users\\Public\\homebrew. You should look there for your files");
             Console.WriteLine(" If you haven't already created this directory one will be made for you.");
             Console.ResetColor();
             Console.ForegroundColor = ConsoleColor.DarkCyan;
