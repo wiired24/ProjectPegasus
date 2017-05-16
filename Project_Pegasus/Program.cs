@@ -71,7 +71,7 @@ namespace Project_Pegasus
                 case 2:
                     Console.WriteLine("Downloading Nesbox Please Wait....");
                     WebClient Client2 = new WebClient();
-                    Client2.DownloadFile("http://www.mediafire.com/file/ns0gh13816nxc0d/NESBOX+RELEASE2+APPX+PKG.rar", @"C:\Users\Public\homebrew\NESBOX+RELEASE2+APPX+PKG.rar");
+                    Client2.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBcW9xMWw0Wlg2UjQ", @"C:\Users\Public\homebrew\NESBOX+RELEASE2+APPX+PKG.rar");
                     Console.WriteLine("Succesfully Downloaded...... :-)");
 
                     break;
