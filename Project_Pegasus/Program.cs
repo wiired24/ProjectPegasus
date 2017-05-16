@@ -108,7 +108,7 @@ namespace Project_Pegasus
                 case 6:
                     Console.WriteLine("Downloading Win64e10 Please Wait....");
                     WebClient Client6 = new WebClient();
-                    Client6.DownloadFile("http://www.mediafire.com/file/zev35cxi6pdle03/Win64e10+PKG.rar", @"C:\Users\Public\homebrew\Win64e10+PKG.rar");
+                    Client6.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBTWJPeWhZU0hXRTQ", @"C:\Users\Public\homebrew\Win64e10+PKG.rar");
                     Console.WriteLine("Succesfully Downloaded...... :-)");
 
                     break;
