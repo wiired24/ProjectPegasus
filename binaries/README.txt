@@ -11,7 +11,7 @@ Once you have downloaded your selected homebrew through the client, just extract
 When you download the homebrew you want you will get a file that will look like
 C:\Users\Public\homebrew\psx-box-master.zip. <- In order to extract this you will need to
 change the singe slash to a double slash so in the terminal just type.
-C:\\Users\\Public\\homebrew\\psx-box-master.zip. The files will now extract on UNIX Systems.
+(Example) C:\\Users\\Public\\homebrew\\psx-box-master.zip unzip The files will now extract on UNIX Systems.
 
 
 Instruction on sideloading APPX Packages can be found here
