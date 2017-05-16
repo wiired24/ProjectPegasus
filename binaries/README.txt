@@ -1,4 +1,7 @@
 <wiired24>
+
+(This is Windows Specific Doesn't Apply in Linux or Mac)
+
 In order to download homebrew through the client you first need to create a folder 
 called homebrew in C:/Users/Public ProjectPegasus will download your files here.
 After doing this you will now be able to download homebrew through the Client.
