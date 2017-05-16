@@ -65,7 +65,7 @@ namespace Project_Pegasus
                     case 1:
                         Console.WriteLine("Downloading Chip8 Please Wait....");
                         WebClient Client = new WebClient();
-                        Client.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBbWpNQ19hUlc4RnM", @"C:\Users\Public\homebrew\CHIP8_XBOX_ONE_V3.rar");
+                        Client.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBbWpNQ19hUlc4RnM", @"C:\\Users\\Public\\homebrew\\CHIP8_XBOX_ONE_V3.rar");
                         Console.WriteLine("Succesfully Downloaded..... Press Enter to Download Again :-)");
                         break;
 
@@ -75,7 +75,7 @@ namespace Project_Pegasus
                     case 2:
                         Console.WriteLine("Downloading Nesbox Please Wait....");
                         WebClient Client2 = new WebClient();
-                        Client2.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBcW9xMWw0Wlg2UjQ", @"C:\Users\Public\homebrew\NESBOX+RELEASE2+APPX+PKG.rar");
+                        Client2.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBcW9xMWw0Wlg2UjQ", @"C:\\Users\\Public\\homebrew\\NESBOX+RELEASE2+APPX+PKG.rar");
                         Console.WriteLine("Succesfully Downloaded Press Enter to Download Again...... :-)");
 
                         break;
@@ -85,7 +85,7 @@ namespace Project_Pegasus
                     case 3:
                         Console.WriteLine("Downloading PSX-BOX Please Wait....");
                         WebClient Client3 = new WebClient();
-                        Client3.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBckdaXzJ0U0dSMVE", @"C:\Users\Public\homebrew\psx-box-master.zip");
+                        Client3.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBckdaXzJ0U0dSMVE", @"C:\\Users\\Public\\homebrew\\psx-box-master.zip");
                         Console.WriteLine("Succesfully Downloaded..... Press Enter to Download Again :-)");
 
                         break;
@@ -94,7 +94,7 @@ namespace Project_Pegasus
                     case 4:
                         Console.WriteLine("Downloading PPPSSPP Please Wait....");
                         WebClient Client4 = new WebClient();
-                        Client4.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBRlk3N1BHQkpRYmM", @"C:\Users\Public\homebrew\PPSSPP+Release+APPX+PKG.rar");
+                        Client4.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBRlk3N1BHQkpRYmM", @"C:\\Users\\Public\\homebrew\\PPSSPP+Release+APPX+PKG.rar");
                         Console.WriteLine("Succesfully Downloaded..... Press Enter to Download Again :-)");
 
                         break;
@@ -103,7 +103,7 @@ namespace Project_Pegasus
                     case 5:
                         Console.WriteLine("Downloading VBA10 Please Wait....");
                         WebClient Client5 = new WebClient();
-                        Client5.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBb25qVjJQRE1iUEE", @"C:\Users\Public\homebrew\VBA10_1.22.197.0_Test.rar");
+                        Client5.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBb25qVjJQRE1iUEE", @"C:\\Users\\Public\\homebrew\\VBA10_1.22.197.0_Test.rar");
                         Console.WriteLine("Succesfully Downloaded..... Press Enter to Download Again :-)");
 
                         break;
@@ -112,7 +112,7 @@ namespace Project_Pegasus
                     case 6:
                         Console.WriteLine("Downloading Win64e10 Please Wait....");
                         WebClient Client6 = new WebClient();
-                        Client6.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBTWJPeWhZU0hXRTQ", @"C:\Users\Public\homebrew\Win64e10+PKG.rar");
+                        Client6.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBTWJPeWhZU0hXRTQ", @"C:\\Users\\Public\\homebrew\\Win64e10+PKG.rar");
                         Console.WriteLine("Succesfully Downloaded..... Press Enter to Download Again :-)");
 
                         break;
@@ -121,11 +121,11 @@ namespace Project_Pegasus
                     case 7:
                         Console.WriteLine("Downloading Dungeon Run Please Wait....");
                         WebClient Client7 = new WebClient();
-                        Client7.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBdmRJajZYazVFR0k", @"C:\Users\Public\homebrew\DungeonRUN1.rar");
-                        Client7.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBeVo2Y29NMWNJT2c", @"C:\Users\Public\homebrew\DungeonRUN2.rar");
-                        Client7.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBbGFUN1JvT0t1cWs", @"C:\Users\Public\homebrew\DungeonRUN3.rar");
-                        Client7.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBMk1tbHJObUNXQnM", @"C:\Users\Public\homebrew\DungeonRun4.rar");
-                        Client7.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBWjBtb1pOVVJId3c", @"C:\Users\Public\homebrew\DungeonRun_README");
+                        Client7.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBdmRJajZYazVFR0k", @"C:\\Users\\Public\\homebrew\\DungeonRUN1.rar");
+                        Client7.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBeVo2Y29NMWNJT2c", @"C:\\Users\\Public\\homebrew\\DungeonRUN2.rar");
+                        Client7.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBbGFUN1JvT0t1cWs", @"C:\\Users\\Public\\homebrew\\DungeonRUN3.rar");
+                        Client7.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBMk1tbHJObUNXQnM", @"C:\\Users\\Public\\homebrew\\DungeonRun4.rar");
+                        Client7.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBWjBtb1pOVVJId3c", @"C:\\Users\\Public\\homebrew\\DungeonRun_README");
                         Console.WriteLine("Succesfully Downloaded..... Press Enter to Download Again :-)");
                         break;
 
