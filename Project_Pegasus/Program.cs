@@ -90,7 +90,7 @@ namespace Project_Pegasus
                 case 4:
                     Console.WriteLine("Downloading PPPSSPP Please Wait....");
                     WebClient Client4 = new WebClient();
-                    Client4.DownloadFile("http://www.mediafire.com/file/x39n3qzc6807a4s/PPSSPP+Release+APPX+PKG.rar ", @"C:\Users\Public\homebrew\PPSSPP+Release+APPX+PKG.rar");
+                    Client4.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBRlk3N1BHQkpRYmM", @"C:\Users\Public\homebrew\PPSSPP+Release+APPX+PKG.rar");
                     Console.WriteLine("Succesfully Downloaded...... :-)");
 
                     break;
