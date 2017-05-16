@@ -117,7 +117,7 @@ namespace Project_Pegasus
                 case 7:
                     Console.WriteLine("Downloading Dungeon Run Please Wait....");
                     WebClient Client7 = new WebClient();
-                    Client7.DownloadFile("http://www.mediafire.com/file/8wvebe61jn30e4m/DungeonRUN.rar", @"C:\Users\Public\homebrew\DungeonRUN.rar");
+                    Client7.DownloadFile("https://drive.google.com/uc?export=download&confirm=50sl&id=0B6C6WFjsJozBdmRJajZYazVFR0k", @"C:\Users\Public\homebrew\DungeonRUN.rar");
                     Console.WriteLine("Succesfully Downloaded...... :-)");
                     break;
 
