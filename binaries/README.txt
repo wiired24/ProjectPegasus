@@ -21,12 +21,13 @@ Just do sudo apt-get install mono. To run the client just cd into
 the binaries folder and run in the terminal  mono  Project_Pegasus.exe
 For extracting the files I recommend either unzip or unrar. 
 
-Note: In order to extract the download archive with unrar or unzip make sure 
-and add an extra / in the path. So for instance if you download psx-box instead of
+Note: In order to extract the download archive from the terminal with unrar or unzip 
+make sure and add an extra / in the path. So for instance if you download psx-box instead of
 typing C:\Users\Public\psx-box-master.zip  unzip
 
 You would type
 C:\\Users\\Public\\psx-box-master.zip unzip
+
 
 
 Instructions on sideloading APPX Packages can be found here
