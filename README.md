@@ -8,7 +8,7 @@ simple way to download any and all Xbox One homebrew right to your PC.
 ![Alt text](  http://i.imgur.com/KzH9EoX.png "ProjectPegasus")
 
 # Does it work on Linux/Mac ?
-Currently as of now it works on Windows. However C# Code runs on Linux and Mac with Mono
+Currently as of now it works only the Windows Operating System. However C# Code runs on Linux and Mac with Mono
 so it should be very trivial to include support for Mac/Linux systems in the near future.
 
 
