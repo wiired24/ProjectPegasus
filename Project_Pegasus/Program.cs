@@ -99,7 +99,7 @@ namespace Project_Pegasus
                 case 5:
                     Console.WriteLine("Downloading VBA10 Please Wait....");
                     WebClient Client5 = new WebClient();
-                    Client5.DownloadFile("http://www.mediafire.com/file/bg9dd6q3ompk6b7/VBA10_1.22.197.0_Test.rar", @"C:\Users\Public\homebrew\VBA10_1.22.197.0_Test.rar");
+                    Client5.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBb25qVjJQRE1iUEE", @"C:\Users\Public\homebrew\VBA10_1.22.197.0_Test.rar");
                     Console.WriteLine("Succesfully Downloaded...... :-)");
 
                     break;
