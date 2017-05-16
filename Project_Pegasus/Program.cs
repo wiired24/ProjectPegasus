@@ -114,10 +114,14 @@ namespace Project_Pegasus
                     break;
 
 
-                case 7:
+                 case 7:
                     Console.WriteLine("Downloading Dungeon Run Please Wait....");
                     WebClient Client7 = new WebClient();
-                    Client7.DownloadFile("https://drive.google.com/uc?export=download&confirm=50sl&id=0B6C6WFjsJozBdmRJajZYazVFR0k", @"C:\Users\Public\homebrew\DungeonRUN.rar");
+                    Client7.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBdmRJajZYazVFR0k", @"C:\Users\Public\homebrew\DungeonRUN1.rar");
+                    Client7.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBeVo2Y29NMWNJT2c", @"C:\Users\Public\homebrew\DungeonRUN2.rar");
+                    Client7.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBbGFUN1JvT0t1cWs", @"C:\Users\Public\homebrew\DungeonRUN3.rar");
+                    Client7.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBMk1tbHJObUNXQnM", @"C:\Users\Public\homebrew\DungeonRun4.rar");
+                    Client7.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBWjBtb1pOVVJId3c", @"C:\Users\Public\homebrew\DungeonRun_README");
                     Console.WriteLine("Succesfully Downloaded...... :-)");
                     break;
 
