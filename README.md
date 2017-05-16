@@ -11,5 +11,9 @@ simple way to download any and all Xbox One homebrew right to your PC.
 Currently as of now it works only the Windows Operating System. However C# Code runs on Linux and Mac with Mono
 so it should be very trivial to include support for Mac/Linux systems in the near future.
 
+# A word of advice
+In order to use the tool you must first create a folder called homebrew inside of your
+C:\Users\Public Directory. This is where ProjectPegasus will download your files to.
+
 
 ProjectPegasus is Free Software licensed under the GNU General Public License V3
