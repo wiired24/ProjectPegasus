@@ -5,10 +5,9 @@
 --------------------------
           Windows            
 --------------------------
-In order to download homebrew through the client you first need to create a folder 
-called homebrew in C:/Users/Public ProjectPegasus will download your files here.
-After doing this you will now be able to download homebrew through the Client.
-Once you have downloaded your selected homebrew through the client, just extract the files and you're good to go.
+
+Your homebrew will be download and installed to C:\Users\Public\homebrew
+If you have not already created a folder one will be made for you.
 
 
 --------------------------
