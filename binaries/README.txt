@@ -13,6 +13,11 @@ C:\Users\Public\homebrew\psx-box-master.zip. <- In order to extract this you wil
 change the singe slash to a double slash so in the terminal just type.
 (Example) C:\\Users\\Public\\homebrew\\psx-box-master.zip unzip The files will now extract on UNIX Systems.
 
+(Another example, This time a .rar file *Requires unrar:  sudo apt-get install unrar)
+unrar e C:\Users\Public\homebrew\Win64e10+PKG.rar <- This won't extract
+unrar e C:\\Users\\Public\\homebrew\\Win64e10+PKG.rar <- This will extract
+
+
 
 Instruction on sideloading APPX Packages can be found here
 https://gbatemp.net/threads/how-to-sideload-chip8-emulator-on-xbox-one.470025/
