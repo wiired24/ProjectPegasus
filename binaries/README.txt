@@ -22,10 +22,10 @@ For extracting the files I recommend either unzip or unrar.
 
 Note: In order to extract the download archive from the terminal with unrar or unzip 
 make sure and add an extra / in the path. So for instance if you download psx-box instead of
-typing C:\Users\Public\psx-box-master.zip  unzip
+typing unzip C:\Users\Public\psx-box-master.zip  
 
 You would type
-C:\\Users\\Public\\psx-box-master.zip unzip
+unzip C:\\Users\\Public\\psx-box-master.zip 
 
 
 
