@@ -29,7 +29,7 @@ C:\\Users\\Public\\psx-box-master.zip unzip
 
 
 
-Instructions on sideloading APPX Packages can be found here
-https://gbatemp.net/threads/how-to-sideload-chip8-emulator-on-xbox-one.470025/
+Instructions on sideloading APPX Packages can be found in the "Installing APPX Packages" PDF
+
 
 Enjoy!
