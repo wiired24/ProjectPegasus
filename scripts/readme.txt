@@ -1,10 +1,8 @@
 This script requires Curl. (Sudo apt-get install curl)
               
-               __________________
-              |                  | 
-              |       Usage      |
-              |__________________|
-              
+              =================
+                    Usage
+              =================
               
 1.just run about -h to see a full list of available homebrew
 
