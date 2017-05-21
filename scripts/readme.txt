@@ -1,10 +1,16 @@
 This script requires Curl. (Sudo apt-get install curl)
+              
+               __________________
+              |                  | 
+              |       Usage      |
+              |__________________|
+              
+              
+1.just run about -h to see a full list of available homebrew
 
-just run the script and decide what homebrew you want 
+2.then run sh ./ProjectPegasus.sh -a (Replace "a" with whatever option you chose)
 
-then run sh ./ProjectPegasus.sh -a (Replace "a" with whatever option you chose)
-
-And your done.
+3.And your done.
 
 If you get a "Permission Denied Error" Make sure you have given the proper priveleges
 for the script to execute. You can do this by running  chmod + x ProjectPegasus.sh
