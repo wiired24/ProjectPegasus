@@ -50,6 +50,7 @@ namespace Project_Pegasus
                 Console.WriteLine("                                       |");
                 Console.WriteLine("    [Miscellaneous/Tools]              |");
                 Console.WriteLine("8.WinIRC - IRC Chat Client             |");
+                Console.WriteLine("9.Boxify - Spotify Music Client        |");
                 Console.WriteLine("                                       |");
                 Console.WriteLine("----------------------------------------");
 
@@ -154,6 +155,17 @@ namespace Project_Pegasus
                         Console.WriteLine("Succesfully Downloaded.... Press Enter to Download Again :-)");
                         Console.ResetColor();
                         break;
+
+
+                    case 9:
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        Console.WriteLine("Downloading Boxify Please Wait....");
+                        WebClient Client9 = new WebClient();
+                        Client9.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBWTYxYW0tNFFTRjQ", @"C:\Users\Public\homebrew\boxify.zip");
+                        Console.WriteLine("Succesfully Downloaded.... Press Enter to Download Again :-)");
+                        Console.ResetColor();
+                        break;
+
 
 
                     // Throws an Exception if the user pressed an invalid option
