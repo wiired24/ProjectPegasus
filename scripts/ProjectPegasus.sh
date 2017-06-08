@@ -22,7 +22,7 @@ g.Dungeon Run - 2D Zelda Clone         |
                                        |
     [Miscellaneous/Tools]              |
 i.WinIRC - IRC Chat Client             |
-                                       |
+j.Boxify - Spotify Music Client        |
 ----------------------------------------"
     
 
@@ -66,7 +66,13 @@ while getopts ':abcdefghi' option; do
     i) echo "Downloading WinIRC!" >&2
        curl -L  "https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBbGZYTVlmY2ViX1k" -o ~/Desktop/WinIRC.zip
        exit
+       
+    j) echo "Downloading Boxify!" >&2
+       curl -L "https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBWTYxYW0tNFFTRjQ" -o ~/Desktop/Boxify.zip
+       exit
+       
 	   ;;
+	   
    \?) printf "illegal option: -%s\n" "$OPTARG" >&2
        echo "$usage" >&2
        exit 1
