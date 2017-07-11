@@ -38,12 +38,12 @@ namespace Project_Pegasus
                 Console.WriteLine("   [Emulators for Xbox One]            |");
                 Console.WriteLine("1.Chip8     - (Chip 8 Games)           |");
                 Console.WriteLine("2.Nesbox    - (NES,SNES,GEN,GB,GBC,GBA)|");
-                Console.WriteLine("3.PSX-BOX   - (PS1 *Work in Progress*) |");
+                Console.WriteLine("3.Retrix    - (Libretro for Xbox One)  |");
                 Console.WriteLine("4.PPSSPP    - (PSP Games)              |");
                 Console.WriteLine("5.VBA10     - (GBA Games)              |");
                 Console.WriteLine("6.Win64e10  - (N64 Games)              |");
-                Console.WriteLine("                                       | ");
-                Console.WriteLine("                                       | ");
+                Console.WriteLine("                                       |");
+                Console.WriteLine("                                       |");
                 Console.WriteLine("    [Xbox One Indie Games]             |");
                 Console.WriteLine("7.Dungeon Run - 2D Zelda Clone         |");
                 Console.WriteLine("                                       |");
@@ -94,9 +94,9 @@ namespace Project_Pegasus
 
                     case 3:
                         Console.ForegroundColor = ConsoleColor.Green;
-                        Console.WriteLine("Downloading PSX-BOX Please Wait....");
+                        Console.WriteLine("Downloading the latest release of Retrix from Github please wait....");
                         WebClient Client3 = new WebClient();
-                        Client3.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBckdaXzJ0U0dSMVE", @"C:\Users\Public\homebrew\psx-box-master.zip");
+                        Client3.DownloadFile("https://github.com/Aftnet/LibretroRT/releases/download/HardwareRenderer/RetriX.UWP_1.2.5.0_x86_x64_arm.appxbundle", @"C:\Users\Public\homebrew\RetriX.UWP_x86_x64_arm.appxbundle");
                         Console.WriteLine("Succesfully Downloaded..... Press Enter to Download Again :-)");
                         Console.ResetColor();
                         break;
@@ -183,3 +183,4 @@ namespace Project_Pegasus
         }
     }
 }
+
