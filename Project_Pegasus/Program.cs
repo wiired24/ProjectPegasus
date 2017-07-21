@@ -29,11 +29,11 @@ namespace Project_Pegasus
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine(" # Note: If running Windows your homebrew will be downloaded to");
                 Console.WriteLine(" C:\\Users\\Public\\homebrew. You should look there for your files");
-                Console.WriteLine(" If you haven't already created this directory one will be made for you.");
+                Console.WriteLine(" If you haven't created this directory one will be made for you.");
                 Console.ResetColor();
                 Console.ForegroundColor = ConsoleColor.DarkCyan;
                 Console.WriteLine("                                                                          ");
-                Console.WriteLine("---------------------------------------                                     ");
+                Console.WriteLine("---------------------------------------                                    ");
                 Console.WriteLine("                                       |");
                 Console.WriteLine("   [Emulators for Xbox One]            |");
                 Console.WriteLine("1.Chip8     - (Chip 8 Games)           |");
@@ -44,13 +44,14 @@ namespace Project_Pegasus
                 Console.WriteLine("6.Win64e10  - (N64 Games)              |");
                 Console.WriteLine("                                       |");
                 Console.WriteLine("                                       |");
-                Console.WriteLine("    [Xbox One Indie Games]             |");
-                Console.WriteLine("7.Dungeon Run - 2D Zelda Clone         |");
+                Console.WriteLine("    [Xbox One Homebrew Games]          |");
+                Console.WriteLine("7.Dungeon Run  - 2D Zelda Clone        |");
+                Console.WriteLine("8.Hedgephysics - Fan Made Sonic Game   |");
                 Console.WriteLine("                                       |");
                 Console.WriteLine("                                       |");
                 Console.WriteLine("    [Miscellaneous/Tools]              |");
-                Console.WriteLine("8.WinIRC - IRC Chat Client             |");
-                Console.WriteLine("9.Boxify - Spotify Music Client        |");
+                Console.WriteLine("9. WinIRC - IRC Chat Client            |");
+                Console.WriteLine("10.Boxify - Spotify Music Client       |");
                 Console.WriteLine("                                       |");
                 Console.WriteLine("----------------------------------------");
 
@@ -149,9 +150,11 @@ namespace Project_Pegasus
 
                     case 8:
                         Console.ForegroundColor = ConsoleColor.Green;
-                        Console.WriteLine("Downloading WinIRC Please Wait....");
+                        Console.WriteLine("Downloading Hedgephysics Please Wait....");
                         WebClient Client8 = new WebClient();
-                        Client8.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBbGZYTVlmY2ViX1k", @"C:\Users\Public\homebrew\WinIRC.zip");
+                        Client8.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBN29vb18ycHM0djg", @"C:\Users\Public\homebrew\hedgephysicspart1.rar");
+                        Client8.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBSTlzeWFqanhMWGc", @"C:\Users\Public\homebrew\hedgephysicspart2.rar");
+                        Client8.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBd0JNRkhMRFVBZ1U", @"C:\Users\Public\homebrew\hedgephysicspart3.rar");
                         Console.WriteLine("Succesfully Downloaded.... Press Enter to Download Again :-)");
                         Console.ResetColor();
                         break;
@@ -159,9 +162,19 @@ namespace Project_Pegasus
 
                     case 9:
                         Console.ForegroundColor = ConsoleColor.Green;
-                        Console.WriteLine("Downloading Boxify Please Wait....");
+                        Console.WriteLine("Downloading WinIRC Please Wait....");
                         WebClient Client9 = new WebClient();
-                        Client9.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBWTYxYW0tNFFTRjQ", @"C:\Users\Public\homebrew\boxify.zip");
+                        Client9.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBbGZYTVlmY2ViX1k", @"C:\Users\Public\homebrew\WinIRC.zip");
+                        Console.WriteLine("Succesfully Downloaded.... Press Enter to Download Again :-)");
+                        Console.ResetColor();
+                        break;
+
+
+                    case 10:
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        Console.WriteLine("Downloading Boxify Please Wait...");
+                        WebClient Client10 = new WebClient();
+                        Client10.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBWTYxYW0tNFFTRjQ", @"C:\Users\Public\homebrew\boxify.zip");
                         Console.WriteLine("Succesfully Downloaded.... Press Enter to Download Again :-)");
                         Console.ResetColor();
                         break;
@@ -183,4 +196,3 @@ namespace Project_Pegasus
         }
     }
 }
-
