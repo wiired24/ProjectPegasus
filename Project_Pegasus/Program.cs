@@ -97,7 +97,7 @@ namespace Project_Pegasus
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("Downloading the latest release of Retrix from Github please wait....");
                         WebClient Client3 = new WebClient();
-                        Client3.DownloadFile("https://github.com/Aftnet/LibretroRT/releases/download/HardwareRenderer/RetriX.UWP_1.2.5.0_x86_x64_arm.appxbundle", @"C:\Users\Public\homebrew\RetriX.UWP_x86_x64_arm.appxbundle");
+                        Client3.DownloadFile("https://github.com/Aftnet/LibretroRT/releases/download/Fixes2/RetriX.UWP_1.3.8.0_x86_x64_arm.appxbundle", @"C:\Users\Public\homebrew\RetriX.UWP_x86_x64_arm.appxbundle");
                         Console.WriteLine("Succesfully Downloaded..... Press Enter to Download Again :-)");
                         Console.ResetColor();
                         break;
@@ -196,3 +196,4 @@ namespace Project_Pegasus
         }
     }
 }
+
