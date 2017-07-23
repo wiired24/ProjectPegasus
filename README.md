@@ -18,4 +18,4 @@ Credit goes to jackb994 for the script.
 
 
 
-ProjectPegasus is Free Software licensed under the GNU General Public License V3
+
