@@ -1,4 +1,4 @@
-![Alt text](  https://travis-ci.org/travis-ci/travis-web.svg?branch=master )
+
 # ProjectPegasus
 ProjectPegasus is a command-line client that serves as a single collective for
 all known Xbox One homebrew. Rather than having to search through various corners
