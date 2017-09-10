@@ -10,7 +10,7 @@ where:
    [Emulators for Xbox One]            |
 a.Chip8     - (Chip 8 Games)           |
 b.Nesbox    - (NES,SNES,GEN,GB,GBC,GBA)|
-c.PSX-BOX   - (PS1 *Work in Progress*) |
+c.Retrix    - (Libretro Port)          |
 d.PPSSPP    - (PSP Games)              |
 e.VBA10     - (GBA Games)              |
 f.Win64e10  - (N64 Games)              |
@@ -39,8 +39,9 @@ while getopts ':abcdefghij' option; do
        curl -L "https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBcW9xMWw0Wlg2UjQ" -o ~/Desktop/nesbox.rar
        exit
        ;;
-    c) echo "Downloading PSX-BOX!" >&2
-       curl -L "https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBckdaXzJ0U0dSMVE" -o ~/Desktop/psxbox.zip
+    c) echo "Downloading Retrix!" >&2
+       curl -L "https://github.com/Aftnet/LibretroRT/releases/download/v1.8/RetriX.UWP_1.8.14.0_x86_x64_arm.appxbundle" -o ~/Desktop/Retrix_v.1.8.zip
+       curl -L "https://github.com/Aftnet/LibretroRT/releases/download/v1.8/RetriX.UWP_1.8.14.0_x86_x64_arm.dependencies.zip" -o ~/Desktop/Retrix_v.1.8.dependencies.zip
        exit
        ;;
     d) echo "Downloading PPSSPP!" >&2
