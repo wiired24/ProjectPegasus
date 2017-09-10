@@ -27,13 +27,11 @@ namespace Project_Pegasus
                 Console.WriteLine("                                                                          ");
                 Console.ResetColor();
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine(" # Note: If running Windows your homebrew will be downloaded to");
-                Console.WriteLine(" C:\\Users\\Public\\homebrew. You should look there for your files");
-                Console.WriteLine(" If you haven't created this directory one will be made for you.");
+                Console.WriteLine(" Enjoy Homebrew on Xbox One :-)   -wiired24                               ");
                 Console.ResetColor();
                 Console.ForegroundColor = ConsoleColor.DarkCyan;
                 Console.WriteLine("                                                                          ");
-                Console.WriteLine("---------------------------------------                                    ");
+                Console.WriteLine("---------------------------------------                                   ");
                 Console.WriteLine("                                       |");
                 Console.WriteLine("   [Emulators for Xbox One]            |");
                 Console.WriteLine("1.Chip8     - (Chip 8 Games)           |");
@@ -63,7 +61,6 @@ namespace Project_Pegasus
 
 
 
-
                 // Setting uo switch block to handle user selections
                 switch (menuChoice)
                 {
@@ -75,7 +72,7 @@ namespace Project_Pegasus
                         Console.WriteLine("Downloading Chip8 Please Wait....");
                         WebClient Client = new WebClient();
                         Client.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBbWpNQ19hUlc4RnM", @"C:\Users\Public\homebrew\CHIP8_XBOX_ONE_V3.rar");
-                        Console.WriteLine("Succesfully Downloaded..... Press Enter to Download Again :-)");
+                        Console.WriteLine("Downloaded to C:\\Users\\Public\\homebrew Press Enter to Download Again :-)");
                         Console.ResetColor();
                         break;
 
@@ -87,7 +84,7 @@ namespace Project_Pegasus
                         Console.WriteLine("Downloading Nesbox Please Wait....");
                         WebClient Client2 = new WebClient();
                         Client2.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBcW9xMWw0Wlg2UjQ", @"C:\Users\Public\homebrew\NESBOX+RELEASE2+APPX+PKG.rar");
-                        Console.WriteLine("Succesfully Downloaded Press Enter to Download Again...... :-)");
+                        Console.WriteLine("Downloaded to C:\\Users\\Public\\homebrew Press Enter to Download Again... :-)");
                         Console.ResetColor();
                         break;
 
@@ -97,8 +94,10 @@ namespace Project_Pegasus
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("Downloading the latest release of Retrix from Github please wait....");
                         WebClient Client3 = new WebClient();
-                        Client3.DownloadFile("https://github.com/Aftnet/LibretroRT/releases/download/Fixes2/RetriX.UWP_1.3.8.0_x86_x64_arm.appxbundle", @"C:\Users\Public\homebrew\RetriX.UWP_x86_x64_arm.appxbundle");
-                        Console.WriteLine("Succesfully Downloaded..... Press Enter to Download Again :-)");
+                        Client3.DownloadFile("https://github.com/Aftnet/LibretroRT/releases/download/v1.8/RetriX.UWP_1.8.14.0_x86_x64_arm.appxbundle", @"C:\Users\Public\homebrew\RetriX.UWP_1.8.14.0_x86_x64_arm.appxbundle");
+                        Console.WriteLine("Downloadeding dependencies please wait....");
+                        Client3.DownloadFile("https://github.com/Aftnet/LibretroRT/releases/download/v1.8/RetriX.UWP_1.8.14.0_x86_x64_arm.dependencies.zip",@"C:\Users\Public\homebrew\RetriX.UWP_1.8.14.0_x86_x64_arm.dependencies.zip");
+                        Console.WriteLine("Downloaded to C:\\Users\\Public\\homebrew Press Enter to Download Again :-)");
                         Console.ResetColor();
                         break;
 
@@ -108,7 +107,7 @@ namespace Project_Pegasus
                         Console.WriteLine("Downloading PPPSSPP Please Wait....");
                         WebClient Client4 = new WebClient();
                         Client4.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBRlk3N1BHQkpRYmM", @"C:\Users\Public\homebrew\PPSSPP+Release+APPX+PKG.rar");
-                        Console.WriteLine("Succesfully Downloaded..... Press Enter to Download Again :-)");
+                        Console.WriteLine("Downloaded to C:\\Users\\Public\\homebrew Press Enter to Download Again :-)");
                         Console.ResetColor();
                         break;
 
@@ -118,7 +117,7 @@ namespace Project_Pegasus
                         Console.WriteLine("Downloading VBA10 Please Wait....");
                         WebClient Client5 = new WebClient();
                         Client5.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBb25qVjJQRE1iUEE", @"C:\Users\Public\homebrew\VBA10_1.22.197.0_Test.rar");
-                        Console.WriteLine("Succesfully Downloaded..... Press Enter to Download Again :-)");
+                        Console.WriteLine("Downloaded to C:\\Users\\Public\\homebrew Press Enter to Download Again :-)");
                         Console.ResetColor();
                         break;
 
@@ -128,7 +127,7 @@ namespace Project_Pegasus
                         Console.WriteLine("Downloading Win64e10 Please Wait....");
                         WebClient Client6 = new WebClient();
                         Client6.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBTWJPeWhZU0hXRTQ", @"C:\Users\Public\homebrew\Win64e10+PKG.rar");
-                        Console.WriteLine("Succesfully Downloaded..... Press Enter to Download Again :-)");
+                        Console.WriteLine("Downloaded to C:\\Users\\Public\\homebrew Press Enter to Download Again :-)");
                         Console.ResetColor();
 
                         break;
@@ -143,7 +142,7 @@ namespace Project_Pegasus
                         Client7.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBbGFUN1JvT0t1cWs", @"C:\Users\Public\homebrew\DungeonRUN3.rar");
                         Client7.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBMk1tbHJObUNXQnM", @"C:\Users\Public\homebrew\DungeonRun4.rar");
                         Client7.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBWjBtb1pOVVJId3c", @"C:\Users\Public\homebrew\DungeonRun_README");
-                        Console.WriteLine("Succesfully Downloaded..... Press Enter to Download Again :-)");
+                        Console.WriteLine("Downloaded to C:\\Users\\Public\\homebrew Press Enter to Download Again :-)");
                         Console.ResetColor();
                         break;
 
@@ -155,7 +154,7 @@ namespace Project_Pegasus
                         Client8.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBN29vb18ycHM0djg", @"C:\Users\Public\homebrew\hedgephysicspart1.rar");
                         Client8.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBSTlzeWFqanhMWGc", @"C:\Users\Public\homebrew\hedgephysicspart2.rar");
                         Client8.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBd0JNRkhMRFVBZ1U", @"C:\Users\Public\homebrew\hedgephysicspart3.rar");
-                        Console.WriteLine("Succesfully Downloaded.... Press Enter to Download Again :-)");
+                        Console.WriteLine("Downloaded to C:\\Users\\Public\\homebrew Press Enter to Download Again :-)");
                         Console.ResetColor();
                         break;
 
@@ -165,7 +164,7 @@ namespace Project_Pegasus
                         Console.WriteLine("Downloading WinIRC Please Wait....");
                         WebClient Client9 = new WebClient();
                         Client9.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBbGZYTVlmY2ViX1k", @"C:\Users\Public\homebrew\WinIRC.zip");
-                        Console.WriteLine("Succesfully Downloaded.... Press Enter to Download Again :-)");
+                        Console.WriteLine("Downloaded to C:\\Users\\Public\\homebrew Press Enter to Download Again :-)");
                         Console.ResetColor();
                         break;
 
@@ -175,7 +174,7 @@ namespace Project_Pegasus
                         Console.WriteLine("Downloading Boxify Please Wait...");
                         WebClient Client10 = new WebClient();
                         Client10.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBWTYxYW0tNFFTRjQ", @"C:\Users\Public\homebrew\boxify.zip");
-                        Console.WriteLine("Succesfully Downloaded.... Press Enter to Download Again :-)");
+                        Console.WriteLine("Downloaded to C:\\Users\\Public\\homebrew Press Enter to Download Again :-)");
                         Console.ResetColor();
                         break;
 
@@ -185,7 +184,6 @@ namespace Project_Pegasus
                     default:
                         Console.WriteLine("Exception! Invalid Input Try Again");
                         break;
-
 
 
 
