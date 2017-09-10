@@ -45,11 +45,12 @@ namespace Project_Pegasus
                 Console.WriteLine("    [Xbox One Homebrew Games]          |");
                 Console.WriteLine("7.Dungeon Run  - 2D Zelda Clone        |");
                 Console.WriteLine("8.Hedgephysics - Fan Made Sonic Game   |");
+                Console.WriteLine("9.sonic realms -new Fan made sonic game|");
                 Console.WriteLine("                                       |");
                 Console.WriteLine("                                       |");
                 Console.WriteLine("    [Miscellaneous/Tools]              |");
-                Console.WriteLine("9. WinIRC - IRC Chat Client            |");
-                Console.WriteLine("10.Boxify - Spotify Music Client       |");
+                Console.WriteLine("10. WinIRC - IRC Chat Client           |");
+                Console.WriteLine("11.Boxify - Spotify Music Client       |");
                 Console.WriteLine("                                       |");
                 Console.WriteLine("----------------------------------------");
 
@@ -158,22 +159,30 @@ namespace Project_Pegasus
                         Console.ResetColor();
                         break;
 
-
                     case 9:
                         Console.ForegroundColor = ConsoleColor.Green;
-                        Console.WriteLine("Downloading WinIRC Please Wait....");
+                        Console.WriteLine("Downloading sonic realms Please Wait....");
                         WebClient Client9 = new WebClient();
-                        Client9.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBbGZYTVlmY2ViX1k", @"C:\Users\Public\homebrew\WinIRC.zip");
+                        Client9.DownloadFile("https://github.com/tunip3/ProjectPegasus/releases/download/0.00000000001/Sonic.Realms_1.0.1.0_x64_Master.appxbundle", @"C:\Users\Public\homebrew\Sonic.Realms_1.0.1.0_x64_Master.appxbundle");
+                        Console.WriteLine("Downloaded to C:\\Users\\Public\\homebrew Press Enter to Download Again :-)");
+                        Console.ResetColor();
+                        break;
+
+                    case 10:
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        Console.WriteLine("Downloading WinIRC Please Wait....");
+                        WebClient Client10 = new WebClient();
+                        Client10.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBbGZYTVlmY2ViX1k", @"C:\Users\Public\homebrew\WinIRC.zip");
                         Console.WriteLine("Downloaded to C:\\Users\\Public\\homebrew Press Enter to Download Again :-)");
                         Console.ResetColor();
                         break;
 
 
-                    case 10:
+                    case 11:
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("Downloading Boxify Please Wait...");
-                        WebClient Client10 = new WebClient();
-                        Client10.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBWTYxYW0tNFFTRjQ", @"C:\Users\Public\homebrew\boxify.zip");
+                        WebClient Client11 = new WebClient();
+                        Client11.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBWTYxYW0tNFFTRjQ", @"C:\Users\Public\homebrew\boxify.zip");
                         Console.WriteLine("Downloaded to C:\\Users\\Public\\homebrew Press Enter to Download Again :-)");
                         Console.ResetColor();
                         break;
