@@ -6,27 +6,28 @@ where:
     -n  set what program to download
     
 ---------------------------------------                                     
-                                       |
-   [Emulators for Xbox One]            |
-a.Chip8     - (Chip 8 Games)           |
-b.Nesbox    - (NES,SNES,GEN,GB,GBC,GBA)|
-c.Retrix    - (Libretro Port)          |
-d.PPSSPP    - (PSP Games)              |
-e.VBA10     - (GBA Games)              |
-f.Win64e10  - (N64 Games)              |
-                                       | 
-                                       | 
-    [Xbox One Indie Games]             |
-g.Dungeon Run - 2D Zelda Clone         |
-                                       |
-                                       |
-    [Miscellaneous/Tools]              |
-i.WinIRC - IRC Chat Client             |
-j.Boxify - Spotify Music Client        |
+                                        |
+   [Emulators for Xbox One]             |
+a.Chip8     - (Chip 8 Games)            |
+b.Nesbox    - (NES,SNES,GEN,GB,GBC,GBA) |
+c.Retrix    - (Libretro Port)           |
+d.PPSSPP    - (PSP Games)               |
+e.VBA10     - (GBA Games)               |
+f.Win64e10  - (N64 Games)               |
+                                        | 
+                                        | 
+    [Xbox One Homebrew Games]           |
+g.Dungeon Run - 2D Zelda Clone          |
+h.Hedgephysics - Fan made sonic game    |                                  |
+i.Sonic Realms - New fan made sonic game|
+                                        |
+[Miscellaneous/Tools]                   |
+j.WinIRC - IRC Chat Client              |
+k.Boxify - Spotify Music Client         |
 ----------------------------------------"
     
 
-while getopts ':abcdefghij' option; do
+while getopts ':abcdefghijk' option; do
   case "$option" in
     h) echo "$usage" >&2
        exit
@@ -64,12 +65,28 @@ while getopts ':abcdefghij' option; do
        curl -L  "https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBWjBtb1pOVVJId3c" -o ~/Desktop/DungeonRun_README
        exit
        ;;
-    i) echo "Downloading WinIRC!" >&2
+    
+    h) echo "Downloading Hedgephysics!" >&2
+       curl -L  "https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBN29vb18ycHM0djg" -o ~/Desktop/Hedgephysics_part1.zip
+       curl -L  "https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBSTlzeWFqanhMWGc" -o ~/Desktop/Hedgephysics_part2.zip
+       curl -L  "https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBd0JNRkhMRFVBZ1U" -O ~/Desktop/Hedgephysics_part3.zip
+       exit
+       ;;
+    
+    i) echo "Downloading Sonic Realms!" >&2
+       curl -L  "https://github.com/tunip3/ProjectPegasus/releases/download/0.00000000001/Sonic.Realms_1.0.1.0_x64_Master.appxbundle" -o ~/Desktop/SonicRealms.zip
+       exit
+       ;;
+    
+    
+    
+    
+    j) echo "Downloading WinIRC!" >&2
        curl -L  "https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBbGZYTVlmY2ViX1k" -o ~/Desktop/WinIRC.zip
        exit
        ;;
        
-    j) echo "Downloading Boxify!" >&2
+    k) echo "Downloading Boxify!" >&2
        curl -L "https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBWTYxYW0tNFFTRjQ" -o ~/Desktop/Boxify.zip
        exit
        
