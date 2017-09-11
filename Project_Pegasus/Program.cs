@@ -84,7 +84,7 @@ namespace Project_Pegasus
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("Downloading Nesbox Please Wait....");
                         WebClient Client2 = new WebClient();
-                        Client2.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBcW9xMWw0Wlg2UjQ", @"C:\Users\Public\homebrew\NESBOX+RELEASE2+APPX+PKG.rar");
+                        Client2.DownloadFile("https://github.com/wiired24/ProjectPegasus/releases/download/appx2/Nesbox.zip", @"C:\Users\Public\homebrew\Nesbox.zip");
                         Console.WriteLine("Downloaded Nesbox to C:\\Users\\Public\\homebrew Press Enter to Download Again... :-)");
                         Console.ResetColor();
                         break;
