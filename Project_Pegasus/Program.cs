@@ -115,7 +115,7 @@ namespace Project_Pegasus
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("Downloading VBA10 Please Wait....");
                         WebClient Client5 = new WebClient();
-                        Client5.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBb25qVjJQRE1iUEE", @"C:\Users\Public\homebrew\VBA10_1.22.197.0_Test.rar");
+                        Client5.DownloadFile("https://github.com/wiired24/ProjectPegasus/releases/download/appx_vba10/VBA10.rar", @"C:\Users\Public\homebrew\VBA10.rar");
                         Console.WriteLine("Downloaded VBA10 to C:\\Users\\Public\\homebrew Press Enter to Download Again :-)");
                         Console.ResetColor();
                         break;
