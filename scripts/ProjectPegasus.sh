@@ -74,7 +74,7 @@ while getopts ':abcdefghijk' option; do
        ;;
     
     i) echo "Downloading Sonic Realms!" >&2
-       curl -L  "https://github.com/tunip3/ProjectPegasus/releases/download/0.00000000001/Sonic.Realms_1.0.1.0_x64_Master.appxbundle" -o ~/Desktop/SonicRealms.zip
+       curl -L  "https://github.com/tunip3/ProjectPegasus/releases/download/0.00000000001/Sonic.Realms_1.0.1.0_x64_Master.appxbundle" -o ~/Desktop/SonicRealms.appxbundle
        exit
        ;;
     
