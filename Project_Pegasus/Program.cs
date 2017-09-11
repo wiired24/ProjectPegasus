@@ -45,7 +45,7 @@ namespace Project_Pegasus
                 Console.WriteLine("    [Xbox One Homebrew Games]          |");
                 Console.WriteLine("7.Dungeon Run  - 2D Zelda Clone        |");
                 Console.WriteLine("8.Hedgephysics - Fan Made Sonic Game   |");
-                Console.WriteLine("9.sonic realms -new Fan made sonic game|");
+                Console.WriteLine("9.sonic realms - Fan Made Sonic Game   |");
                 Console.WriteLine("                                       |");
                 Console.WriteLine("                                       |");
                 Console.WriteLine("    [Miscellaneous/Tools]              |");
