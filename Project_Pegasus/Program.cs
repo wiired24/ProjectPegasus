@@ -125,7 +125,7 @@ namespace Project_Pegasus
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("Downloading Win64e10 Please Wait....");
                         WebClient Client6 = new WebClient();
-                        Client6.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBTWJPeWhZU0hXRTQ", @"C:\Users\Public\homebrew\Win64e10+PKG.rar");
+                        Client6.DownloadFile("https://github.com/wiired24/ProjectPegasus/releases/download/appx_win64e10/Win64e10.zip", @"C:\Users\Public\homebrew\Win64e10.zip");
                         Console.WriteLine("Downloaded Win64e10 to C:\\Users\\Public\\homebrew Press Enter to Download Again :-)");
                         Console.ResetColor();
 
