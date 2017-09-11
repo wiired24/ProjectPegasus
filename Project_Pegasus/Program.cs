@@ -84,7 +84,7 @@ namespace Project_Pegasus
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("Downloading Nesbox Please Wait....");
                         WebClient Client2 = new WebClient();
-                        Client2.DownloadFile("https://github.com/wiired24/ProjectPegasus/releases/download/appx2/Nesbox.zip", @"C:\Users\Public\homebrew\Nesbox.zip");
+                        Client2.DownloadFile("https://github.com/wiired24/ProjectPegasus/releases/download/appx_nesbox/Nesbox.zip", @"C:\Users\Public\homebrew\Nesbox.zip");
                         Console.WriteLine("Downloaded Nesbox to C:\\Users\\Public\\homebrew Press Enter to Download Again... :-)");
                         Console.ResetColor();
                         break;
@@ -95,7 +95,7 @@ namespace Project_Pegasus
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("Downloading the latest release of Retrix from Github please wait....");
                         WebClient Client3 = new WebClient();
-                        Client3.DownloadFile("https://github.com/wiired24/ProjectPegasus/releases/download/appx/RetriX_v1.8.zip", @"C:\Users\Public\homebrew\RetriX_v1.8.zip");
+                        Client3.DownloadFile("https://github.com/wiired24/ProjectPegasus/releases/download/appx_retrix/RetriX_v1.8.zip", @"C:\Users\Public\homebrew\RetriX_v1.8.zip");
                         Console.WriteLine("Downloaded RetriX to C:\\Users\\Public\\homebrew Press Enter to Download Again :-)");
                         Console.ResetColor();
                         break;
