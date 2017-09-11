@@ -164,7 +164,7 @@ namespace Project_Pegasus
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("Downloading WinIRC Please Wait....");
                         WebClient Client10 = new WebClient();
-                        Client10.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBbGZYTVlmY2ViX1k", @"C:\Users\Public\homebrew\WinIRC.zip");
+                        Client10.DownloadFile("https://github.com/wiired24/ProjectPegasus/releases/download/appx_winirc/winirc.zip", @"C:\Users\Public\homebrew\WinIRC.zip");
                         Console.WriteLine("Downloaded WinIRC to C:\\Users\\Public\\homebrew Press Enter to Download Again :-)");
                         Console.ResetColor();
                         break;
@@ -174,7 +174,7 @@ namespace Project_Pegasus
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("Downloading Boxify Please Wait...");
                         WebClient Client11 = new WebClient();
-                        Client11.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBWTYxYW0tNFFTRjQ", @"C:\Users\Public\homebrew\boxify.zip");
+                        Client11.DownloadFile("https://github.com/wiired24/ProjectPegasus/releases/download/appx_boxify/boxify.zip", @"C:\Users\Public\homebrew\boxify.zip");
                         Console.WriteLine("Downloaded Boxify to C:\\Users\\Public\\homebrew Press Enter to Download Again :-)");
                         Console.ResetColor();
                         break;
