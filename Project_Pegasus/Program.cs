@@ -155,7 +155,7 @@ namespace Project_Pegasus
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("Downloading sonic realms Please Wait....");
                         WebClient Client9 = new WebClient();
-                        Client9.DownloadFile("https://github.com/tunip3/ProjectPegasus/releases/download/0.00000000001/Sonic.Realms_1.0.1.0_x64_Master.appxbundle", @"C:\Users\Public\homebrew\Sonic.Realms_1.0.1.0_x64_Master.appxbundle");
+                        Client9.DownloadFile("https://github.com/wiired24/ProjectPegasus/releases/download/appx_sonic_realms/sonic_realms.zip", @"C:\Users\Public\homebrew\sonic_realms.zip");
                         Console.WriteLine("Downloaded sonic realms to C:\\Users\\Public\\homebrew Press Enter to Download Again :-)");
                         Console.ResetColor();
                         break;
