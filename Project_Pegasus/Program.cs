@@ -146,9 +146,7 @@ namespace Project_Pegasus
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("Downloading Hedgephysics Please Wait....");
                         WebClient Client8 = new WebClient();
-                        Client8.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBN29vb18ycHM0djg", @"C:\Users\Public\homebrew\hedgephysicspart1.rar");
-                        Client8.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBSTlzeWFqanhMWGc", @"C:\Users\Public\homebrew\hedgephysicspart2.rar");
-                        Client8.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBd0JNRkhMRFVBZ1U", @"C:\Users\Public\homebrew\hedgephysicspart3.rar");
+                        Client8.DownloadFile("https://github.com/wiired24/ProjectPegasus/releases/download/appx_hedge_physics/Hedgephysics.zip", @"C:\Users\Public\homebrew\hedgephysics.zip");               
                         Console.WriteLine("Downloaded Hedgephysics to C:\\Users\\Public\\homebrew Press Enter to Download Again :-)");
                         Console.ResetColor();
                         break;
