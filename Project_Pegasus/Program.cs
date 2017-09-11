@@ -72,7 +72,7 @@ namespace Project_Pegasus
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("Downloading Chip8 Please Wait....");
                         WebClient Client = new WebClient();
-                        Client.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBbWpNQ19hUlc4RnM", @"C:\Users\Public\homebrew\CHIP8_XBOX_ONE_V3.rar");
+                        Client.DownloadFile("https://github.com/wiired24/ProjectPegasus/releases/download/appx_chip8/CHIP8.rar", @"C:\Users\Public\homebrew\CHIP8.rar");
                         Console.WriteLine("Downloaded Chip8 to C:\\Users\\Public\\homebrew Press Enter to Download Again :-)");
                         Console.ResetColor();
                         break;
@@ -105,7 +105,7 @@ namespace Project_Pegasus
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("Downloading PPPSSPP Please Wait....");
                         WebClient Client4 = new WebClient();
-                        Client4.DownloadFile("https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBRlk3N1BHQkpRYmM", @"C:\Users\Public\homebrew\PPSSPP+Release+APPX+PKG.rar");
+                        Client4.DownloadFile("https://github.com/wiired24/ProjectPegasus/releases/download/appx_ppsspp/PPSSPP.rar", @"C:\Users\Public\homebrew\PPSSPP.rar");
                         Console.WriteLine("Downloaded PPSSPP to C:\\Users\\Public\\homebrew Press Enter to Download Again :-)");
                         Console.ResetColor();
                         break;
