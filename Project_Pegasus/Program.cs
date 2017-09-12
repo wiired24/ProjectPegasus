@@ -69,10 +69,11 @@ namespace Project_Pegasus
 
                     // Using the WebClient Class to connect to the server and download the file to the specified path
                     case 1:
+                        System.IO.Directory.CreateDirectory(@"C:\Users\Public\chip8");
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("Downloading Chip8 from ProjectPegasus Repository Please Wait....");
                         WebClient Client = new WebClient();
-                        Client.DownloadFile("https://github.com/wiired24/ProjectPegasus/releases/download/appx_chip8/CHIP8.rar", @"C:\Users\Public\homebrew\CHIP8.rar");
+                        Client.DownloadFile("https://raw.githubusercontent.com/tunip3/ProjectPegasus/appx_releases/CHIP8/chip8.appx", @"C:\Users\Public\homebrew\chip8\chip8.appx");
                         Console.WriteLine("Downloaded Chip8 to C:\\Users\\Public\\homebrew Press Enter to Download Again :-)");
                         Console.ResetColor();
                         break;
