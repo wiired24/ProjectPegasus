@@ -69,10 +69,11 @@ namespace Project_Pegasus
 
                     // Using the WebClient Class to connect to the server and download the file to the specified path
                     case 1:
+                        System.IO.Directory.CreateDirectory(@"C:\Users\Public\homebrew\chip8");
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("Downloading Chip8 from ProjectPegasus Repository Please Wait....");
                         WebClient Client = new WebClient();
-                        Client.DownloadFile("https://github.com/wiired24/ProjectPegasus/releases/download/appx_chip8/CHIP8.rar", @"C:\Users\Public\homebrew\CHIP8.rar");
+                        Client.DownloadFile("https://github.com/wiired24/ProjectPegasus/releases/download/appx_chip8/CHIP8.rar", @"C:\Users\Public\homebrew\chip8\CHIP8.rar");
                         Console.WriteLine("Downloaded Chip8 to C:\\Users\\Public\\homebrew Press Enter to Download Again :-)");
                         Console.ResetColor();
                         break;
@@ -81,10 +82,11 @@ namespace Project_Pegasus
 
 
                     case 2:
-                        Console.ForegroundColor = ConsoleColor.Green;
+                        System.IO.Directory.CreateDirectory(@"C:\Users\Public\homebrew\nesbox");                            
+                        Console.ForegroundColor = ConsoleColor.Green;                    
                         Console.WriteLine("Downloading Nesbox from ProjectPegasus Repository Please Wait....");
                         WebClient Client2 = new WebClient();
-                        Client2.DownloadFile("https://github.com/wiired24/ProjectPegasus/releases/download/appx_nesbox/Nesbox.zip", @"C:\Users\Public\homebrew\Nesbox.zip");
+                        Client2.DownloadFile("https://github.com/wiired24/ProjectPegasus/releases/download/appx_nesbox/Nesbox.zip", @"C:\Users\Public\homebrew\nesbox\Nesbox.zip");
                         Console.WriteLine("Downloaded Nesbox to C:\\Users\\Public\\homebrew Press Enter to Download Again... :-)");
                         Console.ResetColor();
                         break;
@@ -92,40 +94,44 @@ namespace Project_Pegasus
 
 
                     case 3:
+                        System.IO.Directory.CreateDirectory(@"C:\Users\Public\homebrew\retrix");                            
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("Downloading RetriX from ProjectPegasus Repository please wait....");
                         WebClient Client3 = new WebClient();
-                        Client3.DownloadFile("https://github.com/wiired24/ProjectPegasus/releases/download/appx_retrix/RetriX_v1.8.zip", @"C:\Users\Public\homebrew\RetriX.zip");
+                        Client3.DownloadFile("https://github.com/wiired24/ProjectPegasus/releases/download/appx_retrix/RetriX_v1.8.zip", @"C:\Users\Public\homebrew\retrix\RetriX.zip");
                         Console.WriteLine("Downloaded RetriX to C:\\Users\\Public\\homebrew Press Enter to Download Again :-)");
                         Console.ResetColor();
                         break;
 
 
                     case 4:
+                        System.IO.Directory.CreateDirectory(@"C:\Users\Public\homebrew\ppsspp");                            
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("Downloading PPPSSPP from ProjectPegasus Repository Please Wait....");
                         WebClient Client4 = new WebClient();
-                        Client4.DownloadFile("https://github.com/wiired24/ProjectPegasus/releases/download/appx_ppsspp/PPSSPP.rar", @"C:\Users\Public\homebrew\PPSSPP.rar");
+                        Client4.DownloadFile("https://github.com/wiired24/ProjectPegasus/releases/download/appx_ppsspp/PPSSPP.rar", @"C:\Users\Public\homebrew\ppsspp\PPSSPP.rar");
                         Console.WriteLine("Downloaded PPSSPP to C:\\Users\\Public\\homebrew Press Enter to Download Again :-)");
                         Console.ResetColor();
                         break;
 
 
                     case 5:
+                        System.IO.Directory.CreateDirectory(@"C:\Users\Public\homebrew\vba10");                        
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("Downloading VBA10 from ProjectPegasus Repository Please Wait....");
                         WebClient Client5 = new WebClient();
-                        Client5.DownloadFile("https://github.com/wiired24/ProjectPegasus/releases/download/appx_vba10/VBA10.rar", @"C:\Users\Public\homebrew\VBA10.rar");
+                        Client5.DownloadFile("https://github.com/wiired24/ProjectPegasus/releases/download/appx_vba10/VBA10.rar", @"C:\Users\Public\homebrew\vba10\VBA10.rar");
                         Console.WriteLine("Downloaded VBA10 to C:\\Users\\Public\\homebrew Press Enter to Download Again :-)");
                         Console.ResetColor();
                         break;
 
 
                     case 6:
+                        System.IO.Directory.CreateDirectory(@"C:\Users\Public\homebrew\win64e10");                        
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("Downloading Win64e10 from ProjectPegasus Repository Please Wait....");
                         WebClient Client6 = new WebClient();
-                        Client6.DownloadFile("https://github.com/wiired24/ProjectPegasus/releases/download/appx_win64e10/Win64e10.zip", @"C:\Users\Public\homebrew\Win64e10.zip");
+                        Client6.DownloadFile("https://github.com/wiired24/ProjectPegasus/releases/download/appx_win64e10/Win64e10.zip", @"C:\Users\Public\homebrew\win64e10\Win64e10.zip");
                         Console.WriteLine("Downloaded Win64e10 to C:\\Users\\Public\\homebrew Press Enter to Download Again :-)");
                         Console.ResetColor();
 
@@ -133,48 +139,53 @@ namespace Project_Pegasus
 
 
                     case 7:
+                        System.IO.Directory.CreateDirectory(@"C:\Users\Public\homebrew\DungeonRun");                        
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("Downloading Dungeon Run from ProjectPegasus Repository Please Wait....");
                         WebClient Client7 = new WebClient();
-                        Client7.DownloadFile("https://github.com/wiired24/ProjectPegasus/releases/download/appx_dungeon_run/DungeonRUN.zip", @"C:\Users\Public\homebrew\DungeonRUN.zip");
+                        Client7.DownloadFile("https://github.com/wiired24/ProjectPegasus/releases/download/appx_dungeon_run/DungeonRUN.zip", @"C:\Users\Public\homebrew\DungeonRun\DungeonRUN.zip");
                         Console.WriteLine("Downloaded Dungeon Run to C:\\Users\\Public\\homebrew Press Enter to Download Again :-)");
                         Console.ResetColor();
                         break;
 
 
                     case 8:
+                        System.IO.Directory.CreateDirectory(@"C:\Users\Public\homebrew\Hedge-physics");                           
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("Downloading Hedgephysics from ProjectPegasus Repository Please Wait....");
                         WebClient Client8 = new WebClient();
-                        Client8.DownloadFile("https://github.com/wiired24/ProjectPegasus/releases/download/appx_hedge_physics/Hedgephysics.zip", @"C:\Users\Public\homebrew\hedgephysics.zip");               
+                        Client8.DownloadFile("https://github.com/wiired24/ProjectPegasus/releases/download/appx_hedge_physics/Hedgephysics.zip", @"C:\Users\Public\homebrew\Hedge-physics\hedgephysics.zip");               
                         Console.WriteLine("Downloaded Hedgephysics to C:\\Users\\Public\\homebrew Press Enter to Download Again :-)");
                         Console.ResetColor();
                         break;
 
                     case 9:
+                        System.IO.Directory.CreateDirectory(@"C:\Users\Public\homebrew\sonic-realms");                        
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("Downloading sonic realms from ProjectPegasus Repository Please Wait....");
                         WebClient Client9 = new WebClient();
-                        Client9.DownloadFile("https://github.com/wiired24/ProjectPegasus/releases/download/appx_sonic_realms/sonic_realms.zip", @"C:\Users\Public\homebrew\sonic_realms.zip");
+                        Client9.DownloadFile("https://github.com/wiired24/ProjectPegasus/releases/download/appx_sonic_realms/sonic_realms.zip", @"C:\Users\Public\homebrew\sonic-realms\sonic_realms.zip");
                         Console.WriteLine("Downloaded sonic realms to C:\\Users\\Public\\homebrew Press Enter to Download Again :-)");
                         Console.ResetColor();
                         break;
 
                     case 10:
+                        System.IO.Directory.CreateDirectory(@"C:\Users\Public\homebrew\WinIRC");                        
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("Downloading WinIRC from ProjectPegasus Repository Please Wait....");
                         WebClient Client10 = new WebClient();
-                        Client10.DownloadFile("https://github.com/wiired24/ProjectPegasus/releases/download/appx_winirc/winirc.zip", @"C:\Users\Public\homebrew\WinIRC.zip");
+                        Client10.DownloadFile("https://github.com/wiired24/ProjectPegasus/releases/download/appx_winirc/winirc.zip", @"C:\Users\Public\homebrew\WinIRC\WinIRC.zip");
                         Console.WriteLine("Downloaded WinIRC to C:\\Users\\Public\\homebrew Press Enter to Download Again :-)");
                         Console.ResetColor();
                         break;
 
 
                     case 11:
+                    System.IO.Directory.CreateDirectory(@"C:\Users\Public\homebrew\Boxify");                         
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("Downloading Boxify from ProjectPegasus Repository Please Wait...");
                         WebClient Client11 = new WebClient();
-                        Client11.DownloadFile("https://github.com/wiired24/ProjectPegasus/releases/download/appx_boxify/boxify.zip", @"C:\Users\Public\homebrew\boxify.zip");
+                        Client11.DownloadFile("https://github.com/wiired24/ProjectPegasus/releases/download/appx_boxify/boxify.zip", @"C:\Users\Public\homebrew\Boxify\boxify.zip");
                         Console.WriteLine("Downloaded Boxify to C:\\Users\\Public\\homebrew Press Enter to Download Again :-)");
                         Console.ResetColor();
                         break;
