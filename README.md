@@ -5,7 +5,7 @@ all known Xbox One homebrew. Rather than having to search through various corner
 of the internet or scroll through pages of forum threads, this utility provides a
 simple way to download any and all Xbox One homebrew right to your PC. 
 
-![Alt text](https://upload.vstanced.com/images/2017/09/16/mW9.png "ProjectPegasus")
+![Alt text](https://upload.vstanced.com/images/2017/09/17/mIG.png "ProjectPegasus")
 
 # What Platforms does this tool support?
 Currently ProjectPegasus runs on Windows Linux and Mac. For Windows you can use the 
