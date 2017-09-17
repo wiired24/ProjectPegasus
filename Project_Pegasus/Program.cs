@@ -189,6 +189,16 @@ namespace Project_Pegasus
                         Console.WriteLine("Downloaded Boxify to C:\\Users\\Public\\homebrew Press Enter to Download Again :-)");
                         Console.ResetColor();
                         break;
+                        
+                    case 11:
+                    System.IO.Directory.CreateDirectory(@"C:\Users\Public\homebrew\UWPstreamer");                         
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        Console.WriteLine("Downloading Boxify from ProjectPegasus Repository Please Wait...");
+                        WebClient Client11 = new WebClient();
+                        Client11.DownloadFile("https://raw.githubusercontent.com/wiired24/ProjectPegasus/appx_releases/UWPstreamer.zip", @"C:\Users\Public\homebrew\UWPstreamer\UWPstreamer.zip");
+                        Console.WriteLine("Downloaded Boxify to C:\\Users\\Public\\homebrew Press Enter to Download Again :-)");
+                        Console.ResetColor();
+                        break;    
 
 
 
