@@ -1,3 +1,4 @@
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -54,7 +55,7 @@ namespace Project_Pegasus
                 Console.WriteLine("    [Miscellaneous/Tools]              |");
                 Console.WriteLine("10. WinIRC - IRC Chat Client           |");
                 Console.WriteLine("11.Boxify - Spotify Music Client       |");
-                Console.WriteLine("                                       |");
+                Console.WriteLine("12.UWPStreamer - Stream 3DS to XB1     |");
                 Console.WriteLine("----------------------------------------");
 
 
@@ -193,12 +194,12 @@ namespace Project_Pegasus
                         Console.ResetColor();
                         break;
                         
-                    case 11:
+                    case 12:
                         System.IO.Directory.CreateDirectory(@"C:\Users\Public\homebrew\UWPstreamer");                         
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("Downloading UWPstreamer from ProjectPegasus Repository Please Wait...");
-                        WebClient Client11 = new WebClient();
-                        Client11.DownloadFile("https://raw.githubusercontent.com/wiired24/ProjectPegasus/appx_releases/UWPstreamer.zip", @"C:\Users\Public\homebrew\UWPstreamer\UWPstreamer.zip");
+                        WebClient Client12 = new WebClient();
+                        Client12.DownloadFile("https://raw.githubusercontent.com/wiired24/ProjectPegasus/appx_releases/UWPstreamer.zip", @"C:\Users\Public\homebrew\UWPstreamer\UWPstreamer.zip");
                         Console.WriteLine("Downloaded UWP streamer to C:\\Users\\Public\\homebrew Press Enter to Download Again :-)");
                         Console.ResetColor();
                         break;    
