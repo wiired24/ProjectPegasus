@@ -17,6 +17,9 @@ namespace Project_Pegasus
 
                 //Create C:/Users/Public/homebrew directory if it doesn't already exist
                 System.IO.Directory.CreateDirectory(@"C:\Users\Public\homebrew");
+                
+                //Clear the screen
+                Console.Clear();
 
                 // Setting up the design of the Console Interface
                 Console.ForegroundColor = ConsoleColor.DarkCyan;
