@@ -181,7 +181,7 @@ namespace Project_Pegasus
 
 
                     case 11:
-                    System.IO.Directory.CreateDirectory(@"C:\Users\Public\homebrew\Boxify");                         
+                        System.IO.Directory.CreateDirectory(@"C:\Users\Public\homebrew\Boxify");                         
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("Downloading Boxify from ProjectPegasus Repository Please Wait...");
                         WebClient Client11 = new WebClient();
@@ -191,7 +191,7 @@ namespace Project_Pegasus
                         break;
                         
                     case 11:
-                    System.IO.Directory.CreateDirectory(@"C:\Users\Public\homebrew\UWPstreamer");                         
+                        System.IO.Directory.CreateDirectory(@"C:\Users\Public\homebrew\UWPstreamer");                         
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("Downloading UWPstreamer from ProjectPegasus Repository Please Wait...");
                         WebClient Client11 = new WebClient();
