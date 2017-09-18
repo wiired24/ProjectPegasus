@@ -70,20 +70,19 @@ while getopts ':abcdefghijkl' option; do
        ;;
     
     i) echo "Downloading Sonic Realms!" >&2
-       curl -L  "https://github.com/tunip3/ProjectPegasus/releases/download/0.00000000001/Sonic.Realms_1.0.1.0_x64_Master.appxbundle" -o ~/Desktop/SonicRealms.appxbundle
+       curl -L  "https://github.com/wiired24/ProjectPegasus/releases/download/appx_sonic_realms/sonic_realms.zip" -o ~/Desktop/SonicRealms.appxbundle
        exit
        ;;
     
-    
-    
+       
     
     j) echo "Downloading WinIRC!" >&2
-       curl -L  "https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBbGZYTVlmY2ViX1k" -o ~/Desktop/WinIRC.zip
+       curl -L  "https://github.com/wiired24/ProjectPegasus/releases/download/appx_winirc/winirc.zip" -o ~/Desktop/WinIRC.zip
        exit
        ;;
        
     k) echo "Downloading Boxify!" >&2
-       curl -L "https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBWTYxYW0tNFFTRjQ" -o ~/Desktop/Boxify.zip
+       curl -L "https://github.com/wiired24/ProjectPegasus/releases/download/appx_boxify/boxify.zip" -o ~/Desktop/Boxify.zip
        exit
        
        
