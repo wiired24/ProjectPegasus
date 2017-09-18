@@ -54,15 +54,12 @@ while getopts ':abcdefghijkl' option; do
        exit
        ;;
     f) echo "Downloading Win64e10!" >&2
-       curl -L  "https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBTWJPeWhZU0hXRTQ" -o ~/Desktop/win64e10.rar
+       curl -L  "https://github.com/wiired24/ProjectPegasus/releases/download/appx_win64e10/Win64e10.zip" -o ~/Desktop/Win64e10.zip
        exit
 	   ;;
     g) echo "Downloading Dungeon Run!" >&2
-       curl -L  "https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBdmRJajZYazVFR0k" -o ~/Desktop/DungeonRUN1.rar
-       curl -L  "https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBeVo2Y29NMWNJT2c" -o ~/Desktop/DungeonRUN2.rar
-       curl -L  "https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBbGFUN1JvT0t1cWs" -o ~/Desktop/DungeonRUN3.rar
-       curl -L  "https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBMk1tbHJObUNXQnM" -o ~/Desktop/DungeonRun4.rar
-       curl -L  "https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBWjBtb1pOVVJId3c" -o ~/Desktop/DungeonRun_README
+       curl -L  "https://github.com/wiired24/ProjectPegasus/releases/download/appx_dungeon_run/DungeonRUN.zip" -o ~/Desktop/DungeonRUN.zip
+     
        exit
        ;;
     
