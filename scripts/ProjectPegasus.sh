@@ -64,9 +64,8 @@ while getopts ':abcdefghijkl' option; do
        ;;
     
     h) echo "Downloading Hedgephysics!" >&2
-       curl -L  "https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBN29vb18ycHM0djg" -o ~/Desktop/Hedgephysics_part1.zip
-       curl -L  "https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBSTlzeWFqanhMWGc" -o ~/Desktop/Hedgephysics_part2.zip
-       curl -L  "https://drive.google.com/uc?export=download&id=0B6C6WFjsJozBd0JNRkhMRFVBZ1U" -O ~/Desktop/Hedgephysics_part3.zip
+       curl -L  "https://github.com/wiired24/ProjectPegasus/releases/download/appx_hedge_physics/Hedgephysics.zip" -o ~/Desktop/hedgephysics.zip    
+
        exit
        ;;
     
