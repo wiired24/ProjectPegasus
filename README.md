@@ -10,9 +10,11 @@ simple way to download any and all Xbox One homebrew right to your PC.
 # What Platforms does this tool support?
 ![Alt text](http://itsegment.net/wp-content/uploads/2017/01/linux-windows-mac.png "ProjectPegasus")
 
-Currently ProjectPegasus runs on Windows Linux and Mac. For Windows I have provided an easy to use installer. For Linux and Mac computers there is a working bash script. If 
-using the shell script please be aware it does require Curl to be installed.
-Credit goes to jackb994 for the script.
+ProjectPegasus is cross-platform. It was written in .NET primarily aimed at Windows however with 
+Mono it will run on Linux as well as MacOS.
+
+
+
 
 
 
