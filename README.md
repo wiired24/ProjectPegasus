@@ -12,7 +12,7 @@ simple way to download any and all Xbox One homebrew right to your PC.
 ![Alt text](https://cn.pling.com/img//hive/content-pre1/112422-1.png "ProjectPegasus")
 
 ProjectPegasus is cross-platform. It was written in .NET primarily aimed at Windows however with 
-Mono it will run on Linux as well as MacOS.
+Mono it will run on Linux as well as MacOS and BSD.
 
 
 
