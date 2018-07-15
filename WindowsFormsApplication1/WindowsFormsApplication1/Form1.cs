@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -67,7 +67,7 @@ namespace WindowsFormsApplication1
             WebClient Client = new WebClient();
             Client.DownloadProgressChanged += new DownloadProgressChangedEventHandler(client_DownloadProgressChanged);
             Client.DownloadFileCompleted += new AsyncCompletedEventHandler(client_DownloadFileCompleted);
-            Client.DownloadFileAsync(new Uri("https://github.com/wiired24/ProjectPegasus/releases/download/appx_chip8/CHIP8.rar"), @"C:\Users\Public\homebrew\chip8\CHIP8.rar");
+            Client.DownloadFileAsync(new Uri("https://www.dropbox.com/s/ig7bpsxqreaxxxe/CHIP8.rar?dl=1"), @"C:\Users\Public\homebrew\chip8\CHIP8.rar");
             
 
 
@@ -80,7 +80,7 @@ namespace WindowsFormsApplication1
             WebClient Client = new WebClient();
             Client.DownloadProgressChanged += new DownloadProgressChangedEventHandler(client_DownloadProgressChanged);
             Client.DownloadFileCompleted += new AsyncCompletedEventHandler(client_DownloadFileCompleted);
-            Client.DownloadFileAsync(new Uri("https://github.com/wiired24/ProjectPegasus/releases/download/appx_nesbox/Nesbox.zip"), @"C:\Users\Public\homebrew\nesbox\Nesbox.zip");
+            Client.DownloadFileAsync(new Uri("https://www.dropbox.com/s/fyagaey5kj7573r/Nesbox.zip?dl=1"), @"C:\Users\Public\homebrew\nesbox\Nesbox.zip");
 
         }
 
@@ -91,7 +91,7 @@ namespace WindowsFormsApplication1
             WebClient Client = new WebClient();
             Client.DownloadProgressChanged += new DownloadProgressChangedEventHandler(client_DownloadProgressChanged);
             Client.DownloadFileCompleted += new AsyncCompletedEventHandler(client_DownloadFileCompleted);
-            Client.DownloadFileAsync(new Uri("https://github.com/wiired24/ProjectPegasus/releases/download/appx_retrix/RetriX_v1.8.zip"), @"C:\Users\Public\homebrew\RetriX\RetriX.zip");
+            Client.DownloadFileAsync(new Uri("https://www.dropbox.com/s/pe5pjdm0zkk0lr2/RetriX_v1.8.zip?dl=1"), @"C:\Users\Public\homebrew\RetriX\RetriX.zip");
 
         }
 
@@ -102,7 +102,7 @@ namespace WindowsFormsApplication1
             WebClient Client = new WebClient();
             Client.DownloadProgressChanged += new DownloadProgressChangedEventHandler(client_DownloadProgressChanged);
             Client.DownloadFileCompleted += new AsyncCompletedEventHandler(client_DownloadFileCompleted);
-            Client.DownloadFileAsync(new Uri("https://github.com/wiired24/ProjectPegasus/releases/download/appx_ppsspp/PPSSPP.rar"), @"C:\Users\Public\homebrew\ppsspp\PPSSPP.rar");
+            Client.DownloadFileAsync(new Uri("https://www.dropbox.com/s/nv1ltltyn4os4ux/PPSSPP.rar?dl=1"), @"C:\Users\Public\homebrew\ppsspp\PPSSPP.rar");
 
         }
 
@@ -113,7 +113,7 @@ namespace WindowsFormsApplication1
             WebClient Client = new WebClient();
             Client.DownloadProgressChanged += new DownloadProgressChangedEventHandler(client_DownloadProgressChanged);
             Client.DownloadFileCompleted += new AsyncCompletedEventHandler(client_DownloadFileCompleted);
-            Client.DownloadFileAsync(new Uri("https://github.com/wiired24/ProjectPegasus/releases/download/appx_vba10/VBA10.rar"), @"C:\Users\Public\homebrew\vba10\VBA10.rar");
+            Client.DownloadFileAsync(new Uri("https://www.dropbox.com/s/6bz2q9atgocgxlw/VBA10.rar?dl=1"), @"C:\Users\Public\homebrew\vba10\VBA10.rar");
 
         }
 
@@ -124,7 +124,7 @@ namespace WindowsFormsApplication1
             WebClient Client = new WebClient();
             Client.DownloadProgressChanged += new DownloadProgressChangedEventHandler(client_DownloadProgressChanged);
             Client.DownloadFileCompleted += new AsyncCompletedEventHandler(client_DownloadFileCompleted);
-            Client.DownloadFileAsync(new Uri("https://github.com/wiired24/ProjectPegasus/releases/download/appx_win64e10/Win64e10.zip"), @"C:\Users\Public\homebrew\win64e10\Win64e10.zip");
+            Client.DownloadFileAsync(new Uri("https://www.dropbox.com/s/84r7dprnxgch61v/Win64e10.zip?dl=1"), @"C:\Users\Public\homebrew\win64e10\Win64e10.zip");
         }
 
         // If the User Selects DungeonRUN
@@ -134,7 +134,7 @@ namespace WindowsFormsApplication1
             WebClient Client = new WebClient();
             Client.DownloadProgressChanged += new DownloadProgressChangedEventHandler(client_DownloadProgressChanged);
             Client.DownloadFileCompleted += new AsyncCompletedEventHandler(client_DownloadFileCompleted);
-            Client.DownloadFileAsync(new Uri("https://github.com/wiired24/ProjectPegasus/releases/download/appx_dungeon_run/DungeonRUN.zip"), @"C:\Users\Public\homebrew\DungeonRun\DungeonRUN.zip");
+            Client.DownloadFileAsync(new Uri("https://www.dropbox.com/s/zk4u2i216sh73ef/DungeonRUN.zip?dl=1"), @"C:\Users\Public\homebrew\DungeonRun\DungeonRUN.zip");
         }
 
         // If the User Selects Hedgephysics
@@ -144,7 +144,7 @@ namespace WindowsFormsApplication1
             WebClient Client = new WebClient();
             Client.DownloadProgressChanged += new DownloadProgressChangedEventHandler(client_DownloadProgressChanged);
             Client.DownloadFileCompleted += new AsyncCompletedEventHandler(client_DownloadFileCompleted);
-            Client.DownloadFileAsync(new Uri("https://github.com/wiired24/ProjectPegasus/releases/download/appx_hedge_physics/Hedgephysics.zip"), @"C:\Users\Public\homebrew\Hedge-physics\hedgephysics.zip");
+            Client.DownloadFileAsync(new Uri("https://www.dropbox.com/s/sy5irc7v529h48d/Hedgephysics.zip?dl=1"), @"C:\Users\Public\homebrew\Hedge-physics\hedgephysics.zip");
 
         }
 
@@ -155,7 +155,7 @@ namespace WindowsFormsApplication1
             WebClient Client = new WebClient();
             Client.DownloadProgressChanged += new DownloadProgressChangedEventHandler(client_DownloadProgressChanged);
             Client.DownloadFileCompleted += new AsyncCompletedEventHandler(client_DownloadFileCompleted);
-            Client.DownloadFileAsync(new Uri("https://github.com/wiired24/ProjectPegasus/releases/download/appx_sonic_continuim/sonic_continuim.zip"), @"C:\Users\Public\homebrew\SonicContinuim\sonic_continuim.zip");
+            Client.DownloadFileAsync(new Uri("https://www.dropbox.com/s/tn6cpkvm0bjysvq/sonic_continuim.zip?dl=1"), @"C:\Users\Public\homebrew\SonicContinuim\sonic_continuim.zip");
 
         }
 
@@ -166,7 +166,7 @@ namespace WindowsFormsApplication1
             WebClient Client = new WebClient();
             Client.DownloadProgressChanged += new DownloadProgressChangedEventHandler(client_DownloadProgressChanged);
             Client.DownloadFileCompleted += new AsyncCompletedEventHandler(client_DownloadFileCompleted);
-            Client.DownloadFileAsync(new Uri("https://github.com/wiired24/ProjectPegasus/releases/download/appx_winirc/winirc.zip"), @"C:\Users\Public\homebrew\WinIRC\winirc.zip");
+            Client.DownloadFileAsync(new Uri("https://www.dropbox.com/s/6lstunaaleu3xpe/winirc.zip?dl=1"), @"C:\Users\Public\homebrew\WinIRC\winirc.zip");
 
         }
 
@@ -177,7 +177,7 @@ namespace WindowsFormsApplication1
             WebClient Client = new WebClient();
             Client.DownloadProgressChanged += new DownloadProgressChangedEventHandler(client_DownloadProgressChanged);
             Client.DownloadFileCompleted += new AsyncCompletedEventHandler(client_DownloadFileCompleted);
-            Client.DownloadFileAsync(new Uri("https://github.com/wiired24/ProjectPegasus/releases/download/appx_boxify/boxify.zip"), @"C:\Users\Public\homebrew\Boxify\boxify.zip");
+            Client.DownloadFileAsync(new Uri("https://www.dropbox.com/s/2981nlpbtun0m29/boxify.zip?dl=1"), @"C:\Users\Public\homebrew\Boxify\boxify.zip");
 
         }
 
@@ -188,8 +188,8 @@ namespace WindowsFormsApplication1
             WebClient Client = new WebClient();
             Client.DownloadProgressChanged += new DownloadProgressChangedEventHandler(client_DownloadProgressChanged);
             Client.DownloadFileCompleted += new AsyncCompletedEventHandler(client_DownloadFileCompleted);
-            Client.DownloadFileAsync(new Uri("https://raw.githubusercontent.com/wiired24/ProjectPegasus/appx_releases/UWPstreamer.zip"), @"C:\Users\Public\homebrew\UWPstreamer\UWPstreamer.zip");
-
+            Client.DownloadFileAsync(new Uri("https://www.dropbox.com/s/cnfxhw4gt843gky/UWPstreamer.zip?dl=1"), @"C:\Users\Public\homebrew\UWPstreamer\UWPstreamer.zip");
+            
         }
 
 
