@@ -9,8 +9,7 @@ to your Xbox One.
 ![Alt text](https://upload.vstanced.com/images/2017/09/21/mr4.png "ProjectPegasus")
 
 # What Platforms does this tool support?
-![Alt text](http://itsegment.net/wp-content/uploads/2017/01/linux-windows-mac.png "ProjectPegasus")
-![Alt text](https://cn.pling.com/img//hive/content-pre1/112422-1.png "ProjectPegasus")
+
 
 ProjectPegasus is cross-platform. It was written in .NET primarily aimed at Windows however with 
 Mono it will run on Linux as well as MacOS and BSD.
